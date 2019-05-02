@@ -1,0 +1,6 @@
+type Pet @model {
+  id: ID!
+  clientId: ID
+  name: String!
+  description: String!
+}
