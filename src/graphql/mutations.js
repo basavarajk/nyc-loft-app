@@ -7,6 +7,7 @@ export const createPet = `mutation CreatePet($input: CreatePetInput!) {
     clientId
     name
     description
+    owner
   }
 }
 `;
@@ -16,6 +17,7 @@ export const updatePet = `mutation UpdatePet($input: UpdatePetInput!) {
     clientId
     name
     description
+    owner
   }
 }
 `;
@@ -25,6 +27,7 @@ export const deletePet = `mutation DeletePet($input: DeletePetInput!) {
     clientId
     name
     description
+    owner
   }
 }
 `;

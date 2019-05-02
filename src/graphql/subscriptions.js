@@ -7,6 +7,7 @@ export const onCreatePet = `subscription OnCreatePet {
     clientId
     name
     description
+    owner
   }
 }
 `;
@@ -16,6 +17,7 @@ export const onUpdatePet = `subscription OnUpdatePet {
     clientId
     name
     description
+    owner
   }
 }
 `;
@@ -25,6 +27,7 @@ export const onDeletePet = `subscription OnDeletePet {
     clientId
     name
     description
+    owner
   }
 }
 `;

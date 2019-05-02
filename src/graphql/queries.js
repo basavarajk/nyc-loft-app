@@ -7,6 +7,7 @@ export const getPet = `query GetPet($id: ID!) {
     clientId
     name
     description
+    owner
   }
 }
 `;
@@ -17,6 +18,7 @@ export const listPets = `query ListPets($filter: ModelPetFilterInput, $limit: In
       clientId
       name
       description
+      owner
     }
     nextToken
   }

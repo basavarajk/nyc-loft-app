@@ -1,6 +1,6 @@
 projects:
   GraphQLPets:
-    schemaPath: amplify/backend/function/amplifyrestapilambda/src/src/graphql/schema.json
+    schemaPath: src/graphql/schema.json
     includes:
       - src/graphql/**/*.js
     excludes:

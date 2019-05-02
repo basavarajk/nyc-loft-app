@@ -59,7 +59,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-       <h1>Pet App</h1>
+       <h1>Pet App!</h1>
        <input
           name='name'
           onChange={this.onChange}
